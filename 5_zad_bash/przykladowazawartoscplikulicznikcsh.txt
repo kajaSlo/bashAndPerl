@@ -1,0 +1,6 @@
+set port=7777
+if ( -f ports.txt ) then
+    mv ports.txt ports1.txt; 
+endif
+set file1=ports1.txt
+#if you want a file to be again called ports.txt and copy to this file everything from ports1.txt, just change in this file ports.txt to ports1.txt and ports1.txt to ports.txt

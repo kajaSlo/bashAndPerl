@@ -1,0 +1,3 @@
+port=4456
+if [ -f ports.txt ]; then    mv ports.txt ports1.txt; fi
+file="ports1.txt"
